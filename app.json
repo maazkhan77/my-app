@@ -8,6 +8,17 @@
       "expo-router"
     ],
     "name": "my-app",
-    "slug": "my-app"
+    "slug": "my-app",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "4dc3e1dd-b094-4ba5-ade5-cb8c864fe54b"
+      }
+    },
+    "android": {
+      "package": "com.maazkhan77.myapp"
+    }
   }
 }
